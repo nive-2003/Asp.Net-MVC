@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LaaaQ2tI1to=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LAPSADM\\source\\repos\\Vehicle\\Vehicle.Utility\\Vehicle.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LAPSADM\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

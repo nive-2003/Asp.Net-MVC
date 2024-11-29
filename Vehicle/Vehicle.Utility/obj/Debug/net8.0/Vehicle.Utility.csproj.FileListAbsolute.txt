@@ -1,0 +1,11 @@
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\bin\Debug\net8.0\Vehicle.Utility.deps.json
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\bin\Debug\net8.0\Vehicle.Utility.dll
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\bin\Debug\net8.0\Vehicle.Utility.pdb
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.AssemblyInfoInputs.cache
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.AssemblyInfo.cs
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.csproj.CoreCompileInputs.cache
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.dll
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\refint\Vehicle.Utility.dll
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\Vehicle.Utility.pdb
+C:\Users\LAPSADM\source\repos\Vehicle\Vehicle.Utility\obj\Debug\net8.0\ref\Vehicle.Utility.dll

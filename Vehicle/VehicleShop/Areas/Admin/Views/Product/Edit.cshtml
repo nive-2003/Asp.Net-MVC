@@ -1,0 +1,66 @@
+﻿@model Vehicle.Model.Product
+
+<form method="post" style="max-width: 600px; margin: auto;">
+    <div style="border: 1px solid #e0e0e0; padding: 20px; margin-top: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <div class="pb-2">
+            <h2 style="color: #007bff; text-align: center;">Edit Product</h2>
+            <hr />
+        </div>
+        <div class="mb-4">
+            <label asp-for="Title" style="font-weight: bold;"></label>
+            <input asp-for="Title" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="Title" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Description" style="font-weight: bold;"></label>
+            <textarea asp-for="Description" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;"></textarea>
+            <span asp-validation-for="Description" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="ISBN" style="font-weight: bold;"></label>
+            <input asp-for="ISBN" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="ISBN" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Author" style="font-weight: bold;"></label>
+            <input asp-for="Author" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="Author" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="ListPrice" style="font-weight: bold;"></label>
+            <input asp-for="ListPrice" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="ListPrice" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Price" style="font-weight: bold;"></label>
+            <input asp-for="Price" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="Price" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Price50" style="font-weight: bold;"></label>
+            <input asp-for="Price50" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="Price50" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Price100" style="font-weight: bold;"></label>
+            <input asp-for="Price100" style="border: 1px solid #ccc; border-radius: 0.25rem; width: 100%; padding: 0.5rem;" />
+            <span asp-validation-for="Price100" style="color: red; font-size: 0.875rem;"></span>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-2">
+                <button type="submit" style="background-color: #007bff; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px; font-size: 1rem;">Update</button>
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+                <a asp-controller="Product" asp-action="Index" style="background-color: #6c757d; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px; font-size: 1rem; text-align: center; display: block;">
+                    Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
